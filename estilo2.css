@@ -1,0 +1,168 @@
+ body {
+  background-color: whitesmoke;
+ }
+ .padre {
+    display: flex;
+    text-decoration: black;
+ }
+.hijo {
+    width: 100%; 
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.productos a {
+  color: black;
+  text-decoration: none;
+}
+
+.barra {
+  display: flex;
+  justify-content: center;
+  margin-left: 400px;
+}
+
+.productos {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+
+}
+.productos li :hover{
+  color: dimgray;
+}
+
+.productos li {
+  margin-right: 30px;
+  list-style-type: none;
+}
+img{
+  display: block;
+  margin-bottom: -10%;
+  height: 800px;
+  width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 80px;
+}
+.imagen {
+  width: 33.33%;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px; 
+}
+img:first-of-type {
+  margin-bottom: 160px;  
+}
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+.Flor{
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  font-size: 25px;
+
+}
+.Florencia{
+  text-align: center;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  font-size: 25px; 
+}
+.Pie-pagina{
+  width: 100%;
+  background-color: white;
+}
+.Pie-pagina p {
+  text-align: center;
+}
+.Pie-pagina {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productos,
+.icono-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icono-list li {
+  margin-left: 1rem;
+}
+
+.fa-search,
+.fa-shopping-cart,
+.fa-sign-in-alt {
+  font-size: 1.2rem;
+  color: black;
+  text-decoration: none;
+}
+.icono-list {
+display: flex;
+  justify-content: flex-end;
+  grid-gap: 30px;
+}
+.boton{
+display: inline-block;
+background-color: red;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+margin-top: 20px;
+margin-right: 20px;
+ }
+ .boton:hover{
+  background-color: black;
+ }
+ .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+}
+.Logo{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+
+
+
+ 
